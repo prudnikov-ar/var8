@@ -22,6 +22,10 @@ def syracuse_max(n: int) -> int:
 
     return max_element
 
+# улучшенный принт
+def myprint(arg) -> None:
+    print(arg)
+
 
 if __name__ == '__main__':
     while True:
