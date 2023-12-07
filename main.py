@@ -1,3 +1,6 @@
+"""
+Программа Влада
+"""
 def syracuse_sequence(n: int) -> list[int]:
     sequence = [n]
 
@@ -9,7 +12,8 @@ def syracuse_sequence(n: int) -> list[int]:
             n += 1
         sequence.append(n)
 
-    return sequence
+    # return sequence
+    return conflict
 
 
 def syracuse_max(n: int) -> int:
@@ -23,7 +27,7 @@ def syracuse_max(n: int) -> int:
     return max_element
 
 # улучшенный принт
-def myprint(arg) -> None:
+def my_print(arg) -> None:
     print(arg)
 
 
